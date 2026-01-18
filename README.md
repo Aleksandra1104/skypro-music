@@ -1,14 +1,3 @@
-Чек-лист:
-+Работает вход, выход и регистрация
-+Работает страница "Главное"
-+Работает поиск, сортировка и фильтрация на странице "Главное"
-+Работает механика лайков (снять и поставить лайк) в списке и страница "Мой плейлист"
-+Работает механика лайков в аудиоплеере
-+Работают переходы на страницы с подборками и сами страницы с подборками, при переходах между страницами музыка не прекращает играть
-+На всех страницах с треками можно выбрать трек и начнется воспроизведение трека
-+После того как заканчивается текущий трек, включается следующий трек из текущего плейлиста
-+Работает ручное переключение треков назад и вперед кнопками
-+Работает функция "перемешать треки"
-+Работает управление воспроизведением: play, pause, громкость и зацикливание
-+Работают фильтры, сортировка и поиск треков
-+Работает обновление токена
+This project is a music streaming web application with full user authentication (registration, login, and logout) and a functional Home page where users can browse tracks using search, sorting, and filtering. Users can play any track from any track list page, and playback continues smoothly while navigating between pages and playlist selections. The app supports liking and unliking tracks both from the track list and directly inside the audio player, and includes a “My Playlist” section for favorite tracks. It also provides a complete audio player experience with play/pause controls, volume adjustment, repeat mode, shuffle mode, manual previous/next switching, and automatic playback of the next track when the current one ends. Token refresh is implemented to maintain user sessions securely.
+
+Note: The original API URL used for user registration and for storing/fetching tracks is no longer supported. However, the application logic and API integration are fully implemented—the project only requires updating the API base URL to connect to a working backend.
